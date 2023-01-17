@@ -1,7 +1,7 @@
 from setuptools import setup, Extension
 
 setup(
-    name="Levenshtein_search",
+    name="dedupe_Levenshtein_search",
     url="https://github.com/dedupeio/Levenshtein_search",
     version="1.4.5",
     author="Matt Anderson",
