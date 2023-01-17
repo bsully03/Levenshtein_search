@@ -2,11 +2,11 @@ from setuptools import setup, Extension
 
 setup(
     name="Levenshtein_search",
-    url="https://github.com/mattandahalfew/Levenshtein_search",
-    version="1.4.4",
+    url="https://github.com/dedupeio/Levenshtein_search",
+    version="1.4.5",
     author="Matt Anderson",
-    author_email="manderson3606@gmail.com",
-    description="Search through documents for approximately matching strings",
+    maintainer="Forest Gregg",
+    description="Search through documents for approximately matching strings. A fork of Matt Anderson's library for MIT licensing",
     packages=[],
     ext_modules=[Extension("Levenshtein_search", ["Lev_search.c"])],
     install_requires=[],
